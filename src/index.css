@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  font-size: 0.9rem;
+ position: relative;
+ bottom: 70px;
+  }
+
+.paragraph li {
+  list-style-type: none;
+  margin-left: 1rem;
+  color: #1a0dab;
+}
+
+.paragraph li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer {
+  width: 100%;
+  font-size: 15px;
+  color: #70757a;
+  background-color: #f2f2f2;
+}
+.footer .country {
+  border-bottom: 1 px solid #dadce0;
+  text-align: left;
+  padding: 0.8rem 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.googleimg {
+  height: 14px;
+  margin-right: 14px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.third {
+  display: flex;
+  align-items: center;
+}
+.contacts p {
+  margin: 0 0.5rem;
+}
+.second {
+  display: flex;
+  align-items: center;
+}
+
+.contacts p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
